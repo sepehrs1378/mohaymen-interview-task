@@ -10,7 +10,7 @@ Simple messaging backend with register/login and per-sender inbox grouping.
     -d '{"uid":"user1","password":"11"}'
   ```
 
-- Login (check exists):
+- Login:
   ```bash
   curl -X POST http://localhost:8080/api/auth/login -H "Content-Type: application/json" -d '{"uid":"user1","password":"11"}'
   ```
